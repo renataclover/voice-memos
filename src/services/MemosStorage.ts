@@ -58,7 +58,7 @@ export default class MemosStorage {
 
   async delete(id: number) {
     if (!this.db) {
-      throw new Error('Database is not initialized');
+      throw new Error('Database is not  dasdasdads initialized');
     }
 
     const tx = this.db.transaction('memos', 'readwrite');
